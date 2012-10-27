@@ -7,7 +7,7 @@ Run this command in a shell
 curl https://raw.github.com/samphippen/python-tutorial/master/setup.sh | bash && cd python-tutorial
 ```
 
-then run `./run.sh` which will run the first koan, showing you an error that looks like this
+then run `./run_koans.sh` which will run the first koan, showing you an error that looks like this
 ```
 Thinking AboutAsserts
   test_assert_truth has damaged your karma.
@@ -26,5 +26,5 @@ Beautiful is better than ugly.
 ```
 
 open that file in your favourite text editor (probably gedit or vim), edit the koan to pass
-and then run the koans again (`./run.sh`). Repeat until all koans pass. This makes you
+and then run the koans again (`./run_koans.sh`). Repeat until all koans pass. This makes you
 super awesome at python, congratulations!
